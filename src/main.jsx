@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
-import OscuroContext from './context/oscuroContext.jsx'
 import InfoContext from './context/InfoContext.jsx'
+import OscuroContext from './context/OscuroContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
