@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import './App.css'
-import OscuroContext, { context } from './context/oscuroContext'
+import UseOscuro, { context } from './context/OscuroContexto.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import Header from './components/Header'
 import Home from './pages/Home'

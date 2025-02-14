@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { context } from '../context/oscuroContext'
+import { context } from '../context/OscuroContexto.jsx'
 
 function Header() {
 const {oscuro, setOscuro} = useContext(context)

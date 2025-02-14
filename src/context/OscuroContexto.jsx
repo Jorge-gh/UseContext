@@ -2,7 +2,7 @@ import React, { createContext, useState } from "react";
 
 export const context = createContext()
 
-function OscuroContext({children}){
+function OscuroContexto({children}){
     const [oscuro, setOscuro] = useState(false)
 
     return (
@@ -12,4 +12,4 @@ function OscuroContext({children}){
     )
 }
 
-export default OscuroContext
+export default OscuroContexto
